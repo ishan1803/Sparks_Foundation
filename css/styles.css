@@ -1,0 +1,103 @@
+body{
+  background-color: #DBFEF8;
+}
+
+/* Head Section */
+
+#heading{
+  font-family: Adelle;
+  font-weight: bold;
+  color : #218868;
+}
+#heading2{
+  font-family: Raleway;
+  font-weight: bolder;
+  color: #218868 ;
+}
+#h{
+  text-align: center;
+  padding : 1rem 0 1rem 0;
+}
+
+/* Images Section */
+
+#slideshow{
+  padding : 0 2rem 2rem 2rem;
+}
+
+/* Button Section */
+
+#Donate_button{
+  padding: 1rem 1rem 1rem 1rem;
+  text-align: center;
+  background-color: #ddd;
+}
+
+/* Footer Section */
+
+.footer-text{
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+}
+#footer{
+  text-align: center;
+  background-color:#52ab98;
+  padding: 10px;
+}
+
+.s-icon{
+  margin: 20px 10px;
+}
+
+/* About Section */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+.section{
+	width: 100%;
+	min-height: 60vh;
+	background-color: #ddd;
+}
+.container{
+	width: 80%;
+	display: block;
+	margin:auto;
+	padding-top: 100px;
+}
+.content-section{
+	float: left;
+	width: 55%;
+}
+.image-section{
+	float: right;
+	width: 40%;
+}
+.image-section img{
+	width: 100%;
+	height: auto;
+	display: block;
+	margin: 5rem auto auto auto;
+}
+.content-section .title{
+	text-align: center;
+	font-size: 19px;
+}
+.content-section .content .button{
+	text-align: center;
+}
+.content-section .content .button a{
+	padding:9px 20px;
+}
+.content-section .social{
+	text-align: center;
+}
+}
+
+.counter{
+  font-size: 30px;
+}
